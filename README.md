@@ -1,9 +1,15 @@
-# Kaggle Dataset Downloader
+# Kaggle Dataset Downloader and Extractor
 
 ## Overview
-This package provides a convenient function to download and extract datasets from Kaggle using the Kaggle API.
+This package provides a convenient function to download and extract datasets from Kaggle using the Kaggle API. It will download the dataset, unzip it, and remove the zip file, leaving you with just the .csv file.
 
 ## Installation
+
+Install the package using pip
+```python
+pip install kaggle-extractor
+```
+
 Ensure that you have the Kaggle API set up on your system. If you haven't configured it yet, follow these steps:
 
 1. Create an account on [Kaggle](https://www.kaggle.com/).
